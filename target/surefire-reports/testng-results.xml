@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Programacion para QAs" duration-ms="12691" started-at="2018-04-11T23:48:32Z" finished-at="2018-04-11T23:48:45Z">
+    <groups>
+    </groups>
+    <test name="Google search with data provider" duration-ms="12691" started-at="2018-04-11T23:48:32Z" finished-at="2018-04-11T23:48:45Z">
+      <class name="Google_Search.GoogleSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Google_Search.GoogleSearchTest@755ee1ed]" name="setUp" is-config="true" duration-ms="6450" started-at="2018-04-11T23:48:32Z" finished-at="2018-04-11T23:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchInGoogle()[pri:0, instance:Google_Search.GoogleSearchTest@755ee1ed]" name="searchInGoogle" duration-ms="6116" started-at="2018-04-11T23:48:39Z" finished-at="2018-04-11T23:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInGoogle -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Google_Search.GoogleSearchTest@755ee1ed]" name="shutDown" is-config="true" duration-ms="2" started-at="2018-04-11T23:48:45Z" finished-at="2018-04-11T23:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Google_Search.GoogleSearchTest -->
+    </test> <!-- Google search with data provider -->
+  </suite> <!-- Programacion para QAs -->
+</testng-results>
