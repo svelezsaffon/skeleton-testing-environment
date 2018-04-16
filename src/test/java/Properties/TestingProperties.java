@@ -7,6 +7,7 @@ public class TestingProperties {
 
     public static final String DRIVER_TYPE="driver";
     public static final String USER_ROLE="user";
+    public static final String LOCAL_CHROME="lchrome";
 
     private Properties prop ;
 

@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Programacion para QAs"  >
-    <!--
-    <test name="Google Search no data provider">
-        <classes>
-            <class name="Google_Search.GoogleSearchTest"/>
-        </classes>
-    </test>
-    -->
-
-    <test name="Google search with data provider">
-        <classes>
-            <class name="Google_Search.GoogleSearchTest"/>
-        </classes>
-    </test>
+<suite name="Suite de regression"  >
+    <suite-files>
+        <suite-file path="src/test/resources/chrome_regression.xml"/>
+        <suite-file path="src/test/resources/firefox_regression.xml"/>
+    </suite-files>
 
 </suite>

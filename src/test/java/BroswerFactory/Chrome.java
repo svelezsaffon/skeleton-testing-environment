@@ -1,6 +1,9 @@
 package BroswerFactory;
 
+import Properties.TestingProperties;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.io.IOException;
 
 /**
  * Created by santiago on 10/04/18.
@@ -9,7 +12,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 class Chrome extends ChromeDriver implements WebBrowser {
 
     static {
-        System.setProperty("webdriver.chrome.driver", "/home/santiago/Documents/CRHOMEDRIVER/chromedriver");
+        TestingProperties prop;
+        try {
+            prop=TestingProperties.getInstance();
+            System.setProperty("webdriver.chrome.driver", prop.getStringProperty(TestingProperties.LOCAL_CHROME));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public Chrome(){
